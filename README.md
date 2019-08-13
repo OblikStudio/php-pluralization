@@ -14,9 +14,9 @@ composer require oblik/pluralization
 
 ## Usage
 
-There are [five plural
+There are [six plural
 categories](http://cldr.unicode.org/index/cldr-spec/plural-rules) and each
-is represented with a constant: `ZERO`, `ONE`, `TWO`, `FEW`, and `OTHER`. You
+is represented with a constant: `ZERO`, `ONE`, `TWO`, `FEW`, `MANY`, and `OTHER`. You
 should use those constants in your code:
 
 ```php
@@ -46,15 +46,15 @@ namespace Oblik\Pluralization {
 Each language is represented by a class that extends the abstract `Language`
 class and has the following static methods:
 
-#### `getCardinal(float $number)`
+#### `getCardinal($number)`
 
 Returns the plural form of a cardinal number.
 
-#### `getOrdinal(int $number)`
+#### `getOrdinal($number)`
 
 Returns the plural form of an ordinal number.
 
-#### `getRange(float $start, float $end)`
+#### `getRange($start, $end)`
 
 Returns the plural form of a range.
 
@@ -73,8 +73,8 @@ EnglishLanguage::getOrdinal(3);     // => Oblik\Pluralization\FEW
 EnglishLanguage::getOrdinal(4);     // => Oblik\Pluralization\OTHER
 EnglishLanguage::getOrdinal(103);   // => Oblik\Pluralization\FEW
 
-EnglishLanguage::getOrdinal(0, 2);  // => Oblik\Pluralization\OTHER
-EnglishLanguage::getOrdinal(1, 2);  // => Oblik\Pluralization\OTHER
+EnglishLanguage::getRange(0, 2);    // => Oblik\Pluralization\OTHER
+EnglishLanguage::getRange(1, 2);    // => Oblik\Pluralization\OTHER
 ```
 
 To get the correct language class based on a language code, use the `LANGUAGES`

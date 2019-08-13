@@ -10,7 +10,7 @@
         }
     ],
     "scripts": {
-        "test": "phpunit --bootstrap ./vendor/autoload.php tests --testdox"
+        "test": "phpunit --bootstrap ./vendor/autoload.php tests/suites --testdox"
     },
     "require": {},
     "autoload": {
@@ -19,6 +19,11 @@
         ],
         "psr-4": {
             "Oblik\\Pluralization\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Oblik\\Pluralization\\": "tests/classes/"
         }
     },
     "require-dev": {

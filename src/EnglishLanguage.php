@@ -4,9 +4,9 @@ namespace Oblik\Pluralization;
 
 class EnglishLanguage extends Language
 {
-    static function cardinal(int $i, float $v): int
+    static function cardinal(int $i, $v): int
     {
-        if ($i == 1 && $v == 0) {
+        if ($i === 1 && $v === null) {
             return ONE;
         } else {
             return OTHER;
@@ -18,11 +18,11 @@ class EnglishLanguage extends Language
         $mod10 = $n % 10;
         $mod100 = $n % 100;
 
-        if ($mod10 == 1 && $mod100 != 11) {
+        if ($mod10 === 1 && $mod100 != 11) {
             return ONE;
-        } elseif ($mod10 == 2 && $mod100 != 12) {
+        } elseif ($mod10 === 2 && $mod100 != 12) {
             return TWO;
-        } else if ($mod10 == 3 && $mod100 != 13) {
+        } else if ($mod10 === 3 && $mod100 != 13) {
             return FEW;
         }
 

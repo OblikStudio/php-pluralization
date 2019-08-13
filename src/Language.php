@@ -2,31 +2,49 @@
 
 namespace Oblik\Pluralization;
 
-const ZERO = 0;
-const ONE = 1;
-const TWO = 2;
-const FEW = 3;
-const MANY = 4;
-const OTHER = 5;
-
 abstract class Language
 {
-    abstract protected static function cardinal(int $i, float $v): int;
+    abstract protected static function cardinal(int $i, $v): int;
     abstract protected static function ordinal(int $n): int;
 
-    public static function getCardinal(float $number)
-    {
-        $whole = (int) floor($number);
-        $fraction = $number - $whole;
-        return static::cardinal($whole, $fraction);
+    private static function parseNumber($number) {
+        if (!is_string($number)) {
+            $number = (string) $number;
+        }
+
+        $split = explode('.', $number);
+        $integer = (int) $split[0];
+        $fraction = isset($split[1]) ? (float) ('0.' . $split[1]) : null;
+
+        return [
+            'integer' => $integer,
+            'fraction' => $fraction
+        ];
     }
 
-    public static function getOrdinal(int $number)
-    {
-        return static::ordinal($number);
+    protected static function inRange(int $n, array $range) {
+        return $n >= $range[0] && $n <= $range[1];
     }
 
-    public static function getRange(float $start, float $end)
+    public static function getCardinal($number)
+    {
+        // In some languages (like Russian), there's a difference between `0`
+        // and `0.0`. Since those values are the same in PHP, they should be
+        // represented as strings so that decimal points aren't lost.
+        $number = self::parseNumber($number);
+
+        return static::cardinal(
+            $number['integer'],
+            $number['fraction']
+        );
+    }
+
+    public static function getOrdinal($number)
+    {
+        return static::ordinal((int) $number);
+    }
+
+    public static function getRange($start, $end)
     {
         $startType = static::getCardinal($start);
         $endType = static::getCardinal($end);

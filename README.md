@@ -8,6 +8,8 @@ cardinal numbers.
 
 ## Installation
 
+With [Composer](https://packagist.org/packages/oblik/pluralization):
+
 ```
 composer require oblik/pluralization
 ```

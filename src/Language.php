@@ -56,4 +56,17 @@ abstract class Language
             return null;
         }
     }
+
+    public static function formName($form) {
+        switch ($form) {
+            case ZERO: return 'zero';
+            case ONE: return 'one';
+            case TWO: return 'two';
+            case FEW: return 'few';
+            case MANY: return 'many';
+            case OTHER: return 'other';
+        }
+
+        return null;
+    }
 }

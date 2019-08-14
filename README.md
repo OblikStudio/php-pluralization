@@ -60,6 +60,10 @@ Returns the plural form of an ordinal number.
 
 Returns the plural form of a range.
 
+#### `formName($form)`
+
+Returns the string name of a form constant.
+
 ### Example
 
 ```php
@@ -77,6 +81,9 @@ EnglishLanguage::getOrdinal(103);   // => Oblik\Pluralization\FEW
 
 EnglishLanguage::getRange(0, 2);    // => Oblik\Pluralization\OTHER
 EnglishLanguage::getRange(1, 2);    // => Oblik\Pluralization\OTHER
+
+EnglishLanguage::formName(Oblik\Pluralization\ZERO);    // => "zero"
+EnglishLanguage::formName(Oblik\Pluralization\ONE);     // => "one"
 ```
 
 To get the correct language class based on a language code, use the `LANGUAGES`

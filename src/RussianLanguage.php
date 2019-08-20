@@ -29,7 +29,7 @@ class RussianLanguage extends Language
         return OTHER;
     }
 
-    static function ordinal($n)
+    static function ordinal()
     {
         return OTHER;
     }

@@ -5,10 +5,10 @@ namespace Oblik\Pluralization\Rules;
 use const Oblik\Pluralization\ONE;
 use const Oblik\Pluralization\OTHER;
 
-trait Cardinal1 {
-    static function cardinal($n, $i, $v)
+trait Cardinal2 {
+    static function cardinal($n)
     {
-        if ($i === 1 && $v === 0) {
+        if ($n == 1) {
             return ONE;
         } else {
             return OTHER;

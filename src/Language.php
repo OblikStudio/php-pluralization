@@ -35,8 +35,10 @@ abstract class Language
 
     public static function getCardinal($number)
     {
-        $operands = self::parseNumber($number);
-        return call_user_func_array(static::class . '::cardinal', $operands);
+        return call_user_func_array(
+            static::class . '::cardinal',
+            self::parseNumber($number)
+        );
     }
 
     public static function getOrdinal($number)

@@ -1,10 +1,8 @@
 # Pluralization for PHP
 
-This package allows you to get the correct plural form for words based on the
-Language Plural Rules [defined in
-Unicode](https://www.unicode.org/cldr/charts/27/supplemental/language_plural_rules.html).
-You can get forms for cardinal and ordinal numbers, as well as ranges of
-cardinal numbers.
+This package allows you to get the correct plural form for words based on the Language Plural Rules [defined in Unicode](https://www.unicode.org/cldr/charts/27/supplemental/language_plural_rules.html). You can get forms for cardinal and ordinal numbers, as well as ranges of cardinal numbers.
+
+To check which languages are supported, check the [src folder](src). In you need another language, create an issue or a PR.
 
 ## Installation
 
@@ -16,10 +14,7 @@ composer require oblik/pluralization
 
 ## Usage
 
-There are [six plural
-categories](http://cldr.unicode.org/index/cldr-spec/plural-rules) and each
-is represented with a constant: `ZERO`, `ONE`, `TWO`, `FEW`, `MANY`, and `OTHER`. You
-should use those constants in your code:
+There are [six plural categories](http://cldr.unicode.org/index/cldr-spec/plural-rules) and each is represented with a constant: `ZERO`, `ONE`, `TWO`, `FEW`, `MANY`, and `OTHER`. You should use those constants in your code:
 
 ```php
 namespace Oblik\Pluralization {
@@ -45,8 +40,7 @@ namespace Oblik\Pluralization {
 
 ## API
 
-Each language is represented by a class that extends the abstract `Language`
-class and has the following static methods:
+Each language is represented by a class that extends the abstract `Language` class and has the following static methods:
 
 #### `getCardinal($number)`
 
@@ -86,8 +80,7 @@ EnglishLanguage::formName(Oblik\Pluralization\ZERO);    // => "zero"
 EnglishLanguage::formName(Oblik\Pluralization\ONE);     // => "one"
 ```
 
-To get the correct language class based on a language code, use the `LANGUAGES`
-constant:
+To get the correct language class based on a language code, use the `LANGUAGES` constant:
 
 ```php
 use const Oblik\Pluralization\LANGUAGES;

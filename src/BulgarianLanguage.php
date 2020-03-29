@@ -4,9 +4,15 @@ namespace Oblik\Pluralization;
 
 class BulgarianLanguage extends Language
 {
-    use Rules\Cardinal2;
+    static function cardinal(float $n)
+    {
+        if ($n == 1) {
+            return ONE;
+        }
+        return OTHER;
+    }
 
-    static function ordinal($n)
+    static function ordinal(int $n)
     {
         return OTHER;
     }

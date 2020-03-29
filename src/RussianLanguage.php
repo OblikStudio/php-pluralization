@@ -4,7 +4,7 @@ namespace Oblik\Pluralization;
 
 class RussianLanguage extends Language
 {
-    static function cardinal($n, $i, $v)
+    static function cardinal(float $n, int $i, int $v)
     {
         $mod10 = $i % 10;
         $mod100 = $i % 100;

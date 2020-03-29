@@ -14,5 +14,7 @@ const LANGUAGES = [
   'de' => GermanLanguage::class,
   'es' => SpanishLanguage::class,
   'en' => EnglishLanguage::class,
+  'it' => ItalianLanguage::class,
+  'fr' => FrenchLanguage::class,
   'ru' => RussianLanguage::class
 ];

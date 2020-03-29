@@ -2,7 +2,7 @@
 
 namespace Oblik\Pluralization;
 
-class JapaneseLanguage extends Language
+class NKoLanguage extends Language
 {
     static function cardinal(float $n, int $i, int $v)
     {

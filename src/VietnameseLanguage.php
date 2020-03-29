@@ -2,7 +2,7 @@
 
 namespace Oblik\Pluralization;
 
-class JapaneseLanguage extends Language
+class VietnameseLanguage extends Language
 {
     static function cardinal(float $n, int $i, int $v)
     {
@@ -11,6 +11,9 @@ class JapaneseLanguage extends Language
 
     static function ordinal(int $n)
     {
+        if ($n == 1) {
+            return ONE;
+        }
         return OTHER;
     }
 

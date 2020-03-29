@@ -11,10 +11,12 @@ const OTHER = 5;
 
 const LANGUAGES = [
   'ar'  => ArabicLanguage::class,
+  'az'  => AzerbaijaniLanguage::class,
   'bg'  => BulgarianLanguage::class,
   'bm'  => BambaraLanguage::class,
   'my'  => BurmeseLanguage::class,
   'yue' => CantoneseLanguage::class,
+  'cs'  => CzechLanguage::class,
   'zh'  => ChineseLanguage::class,
   'dz'  => DzongkhaLanguage::class,
   'en'  => EnglishLanguage::class,

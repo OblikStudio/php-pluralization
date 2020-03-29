@@ -24,6 +24,7 @@ const LANGUAGES = [
   'da'  => DanishLanguage::class,
   'de'  => GermanLanguage::class,
   'es'  => EstonianLanguage::class,
+  'eo'  => EsperantoLanguage::class,
   'ig'  => IgboLanguage::class,
   'id'  => IndonesianLanguage::class,
   'in'  => IndonesianLanguage::class,

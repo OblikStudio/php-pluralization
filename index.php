@@ -28,6 +28,7 @@ const LANGUAGES = [
   'fr'  => FrenchLanguage::class,
   'de'  => GermanLanguage::class,
   'hi'  => HindiLanguage::class,
+  'hu'  => Hungarian::class,
   'ig'  => IgboLanguage::class,
   'id'  => IndonesianLanguage::class,
   'in'  => IndonesianLanguage::class,

@@ -4,7 +4,7 @@ namespace Oblik\Pluralization;
 
 class FrenchLanguage extends Language
 {
-    static function cardinal(float $n, int $i)
+    static function cardinal(float $n, int $i, int $v)
     {
         if ($i == 0 || $i == 1) {
             return ONE;

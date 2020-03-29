@@ -14,7 +14,10 @@ const LANGUAGES = [
   'de' => GermanLanguage::class,
   'es' => SpanishLanguage::class,
   'en' => EnglishLanguage::class,
-  'it' => ItalianLanguage::class,
   'fr' => FrenchLanguage::class,
-  'ru' => RussianLanguage::class
+  'it' => ItalianLanguage::class,
+  'ja' => JapaneseLanguage::class,
+  'ko' => KoreanLanguage::class,
+  'ru' => RussianLanguage::class,
+  'zh' => ChineseLanguage::class,
 ];

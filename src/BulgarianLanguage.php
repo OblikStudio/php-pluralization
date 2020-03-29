@@ -4,7 +4,7 @@ namespace Oblik\Pluralization;
 
 class BulgarianLanguage extends Language
 {
-    static function cardinal(float $n)
+    static function cardinal(float $n, int $i, int $v)
     {
         if ($n == 1) {
             return ONE;

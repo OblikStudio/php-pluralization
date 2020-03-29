@@ -42,6 +42,7 @@ const LANGUAGES = [
   'kde' => MakondeLanguage::class,
   'ms'  => MalayLanguage::class,
   'nqo' => NKoLanguage::class,
+  'fa'  => PersianLanguage::class,
   'ru'  => RussianLanguage::class,
   'sah' => SakhaLanguage::class,
   'sg'  => SangoLanguage::class,

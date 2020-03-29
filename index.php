@@ -11,6 +11,7 @@ const OTHER = 5;
 
 const LANGUAGES = [
   'ar'  => ArabicLanguage::class,
+  'hy'  => ArmenianLanguage::class,
   'az'  => AzerbaijaniLanguage::class,
   'bm'  => BambaraLanguage::class,
   'bg'  => BulgarianLanguage::class,

@@ -10,6 +10,7 @@ const MANY = 4;
 const OTHER = 5;
 
 const LANGUAGES = [
+  'ar'  => ArabicLanguage::class,
   'bg'  => BulgarianLanguage::class,
   'bm'  => BambaraLanguage::class,
   'my'  => BurmeseLanguage::class,

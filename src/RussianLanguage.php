@@ -50,6 +50,6 @@ class RussianLanguage extends Language
         OTHER . ONE => ONE,
         OTHER . FEW => FEW,
         OTHER . MANY => MANY,
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

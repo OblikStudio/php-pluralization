@@ -15,6 +15,6 @@ class KoyraboroSenniLanguage extends Language
     }
 
     const RANGE = [
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

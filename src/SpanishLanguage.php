@@ -20,6 +20,6 @@ class SpanishLanguage extends Language
     const RANGE = [
         ONE . OTHER => OTHER,
         OTHER . ONE => OTHER,
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

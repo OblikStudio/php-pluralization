@@ -15,6 +15,6 @@ class IndonesianLanguage extends Language
     }
 
     const RANGE = [
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

@@ -15,6 +15,6 @@ class LakotaLanguage extends Language
     }
 
     const RANGE = [
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

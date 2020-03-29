@@ -15,6 +15,6 @@ class SichuanYiLanguage extends Language
     }
 
     const RANGE = [
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

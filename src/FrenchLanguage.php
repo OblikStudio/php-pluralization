@@ -23,6 +23,6 @@ class FrenchLanguage extends Language
     const RANGE = [
         ONE . ONE => ONE,
         ONE . OTHER => OTHER,
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

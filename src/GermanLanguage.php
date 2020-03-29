@@ -20,6 +20,6 @@ class GermanLanguage extends Language
     const RANGE = [
         ONE . OTHER => OTHER,
         OTHER . ONE => ONE,
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

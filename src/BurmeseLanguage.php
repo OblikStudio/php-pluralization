@@ -15,6 +15,6 @@ class BurmeseLanguage extends Language
     }
 
     const RANGE = [
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

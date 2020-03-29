@@ -17,6 +17,7 @@ const LANGUAGES = [
   'my'  => BurmeseLanguage::class,
   'yue' => CantoneseLanguage::class,
   'zh'  => ChineseLanguage::class,
+  'hr'  => CroatianLanguage::class,
   'cs'  => CzechLanguage::class,
   'dz'  => DzongkhaLanguage::class,
   'da'  => DanishLanguage::class,

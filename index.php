@@ -21,6 +21,7 @@ const LANGUAGES = [
   'dz'  => DzongkhaLanguage::class,
   'en'  => EnglishLanguage::class,
   'fr'  => FrenchLanguage::class,
+  'da'  => DanishLanguage::class,
   'de'  => GermanLanguage::class,
   'ig'  => IgboLanguage::class,
   'id'  => IndonesianLanguage::class,

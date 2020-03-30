@@ -21,11 +21,15 @@ abstract class Language
         $split = explode('.', $number);
         $integer = array_shift($split);
         $fraction = implode('', $split);
+        $noTrailFraction = rtrim($fraction, '0');
 
         return [
-            (float) $number,
-            (int) $integer,
-            strlen($fraction)
+            (float) $number,            // n
+            (int) $integer,             // i
+            strlen($fraction),          // v
+            strlen($noTrailFraction),   // w
+            (int) $fraction,            // f
+            (int) $noTrailFraction,     // t
         ];
     }
 

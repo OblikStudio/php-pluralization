@@ -4,9 +4,15 @@ namespace Oblik\Pluralization;
 
 class EnglishLanguage extends Language
 {
-    use Rules\Cardinal1;
+    static function cardinal(float $n, int $i, int $v)
+    {
+        if ($i == 1 && $v == 0) {
+            return ONE;
+        }
+        return OTHER;
+    }
 
-    static function ordinal($n)
+    static function ordinal(int $n)
     {
         $mod10 = $n % 10;
         $mod100 = $n % 100;
@@ -25,6 +31,6 @@ class EnglishLanguage extends Language
     const RANGE = [
         ONE . OTHER => OTHER,
         OTHER . ONE => OTHER,
-        OTHER . OTHER => OTHER
+        OTHER . OTHER => OTHER,
     ];
 }

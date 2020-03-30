@@ -10,6 +10,7 @@ const MANY = 4;
 const OTHER = 5;
 
 const LANGUAGES = [
+  'af'  => AfrikaansLanguage::class,
   'ar'  => ArabicLanguage::class,
   'hy'  => ArmenianLanguage::class,
   'az'  => AzerbaijaniLanguage::class,
@@ -20,8 +21,8 @@ const LANGUAGES = [
   'zh'  => ChineseLanguage::class,
   'hr'  => CroatianLanguage::class,
   'cs'  => CzechLanguage::class,
-  'dz'  => DzongkhaLanguage::class,
   'da'  => DanishLanguage::class,
+  'dz'  => DzongkhaLanguage::class,
   'en'  => EnglishLanguage::class,
   'eo'  => EsperantoLanguage::class,
   'es'  => EstonianLanguage::class,

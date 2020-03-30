@@ -44,6 +44,7 @@ const LANGUAGES = [
   'ses' => KoyraboroSenniLanguage::class,
   'lkt' => LakotaLanguage::class,
   'lo'  => LaoLanguage::class,
+  'lv'  => LatvianLanguage::class,
   'lt'  => LithuanianLanguage::class,
   'jbo' => LojbanLanguage::class,
   'kde' => MakondeLanguage::class,

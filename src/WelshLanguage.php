@@ -45,8 +45,25 @@ class WelshLanguage extends Language
     }
 
     const RANGE = [
-        ONE . OTHER => OTHER,
-        OTHER . ONE => ONE,
-        OTHER . OTHER => OTHER,
+        zero . one => one,
+        zero . two => two,
+        zero . few => few,
+        zero . many => many,
+        zero . other => other,
+        one . two => two,
+        one . few => few,
+        one . many => many,
+        one . other => other,
+        two . few => few,
+        two . many => many,
+        two . other => other,
+        few . many => many,
+        few . other => other,
+        many . other => other,
+        other . one => one,
+        other . two => two,
+        other . few => few,
+        other . many => many,
+        other . other => other,
     ];
 }

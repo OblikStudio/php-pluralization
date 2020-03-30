@@ -80,6 +80,7 @@ const LANGUAGES = [
   'uk'  => UkrainianLanguage::class,
   'uz'  => UzbekLanguage::class,
   'vi'  => VietnameseLanguage::class,
+  'cy'  => WelshLanguage::class,
   'wo'  => WolofLanguage::class,
   'yo'  => YorubaLanguage::class,
 ];

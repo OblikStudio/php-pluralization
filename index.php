@@ -46,6 +46,7 @@ const LANGUAGES = [
   'km'  => KhmerLanguage::class,
   'ko'  => KoreanLanguage::class,
   'ses' => KoyraboroSenniLanguage::class,
+  'ky'  => KyrgyzLanguage::class,
   'lkt' => LakotaLanguage::class,
   'lo'  => LaoLanguage::class,
   'lv'  => LatvianLanguage::class,

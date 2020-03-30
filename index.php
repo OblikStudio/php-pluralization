@@ -32,6 +32,7 @@ const LANGUAGES = [
   'fr'  => FrenchLanguage::class,
   'ka'  => GeorgianLanguage::class,
   'de'  => GermanLanguage::class,
+  'el'  => GreekLanguage::class,
   'hi'  => HindiLanguage::class,
   'hu'  => Hungarian::class,
   'ig'  => IgboLanguage::class,

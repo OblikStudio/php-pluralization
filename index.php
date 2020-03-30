@@ -15,6 +15,7 @@ const LANGUAGES = [
   'hy'  => ArmenianLanguage::class,
   'az'  => AzerbaijaniLanguage::class,
   'bm'  => BambaraLanguage::class,
+  'eu'  => BasqueLanguage::class,
   'bg'  => BulgarianLanguage::class,
   'my'  => BurmeseLanguage::class,
   'yue' => CantoneseLanguage::class,

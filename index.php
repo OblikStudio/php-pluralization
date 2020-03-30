@@ -78,6 +78,7 @@ const LANGUAGES = [
   'to'  => TonganLanguage::class,
   'tr'  => TurkishLanguage::class,
   'uk'  => UkrainianLanguage::class,
+  'uz'  => UzbekLanguage::class,
   'vi'  => VietnameseLanguage::class,
   'wo'  => WolofLanguage::class,
   'yo'  => YorubaLanguage::class,

@@ -55,6 +55,7 @@ const LANGUAGES = [
   'mk'  => MacedonianLanguage::class,
   'kde' => MakondeLanguage::class,
   'ms'  => MalayLanguage::class,
+  'ml'  => MalayalamLanguage::class,
   'no'  => NorwegianLanguage::class,
   'nb'  => NorwegianBokmalLanguage::class,
   'nn'  => NorwegianNynorskLanguage::class,

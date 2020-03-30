@@ -12,13 +12,13 @@ class PolishLanguage extends Language
         if ($i == 1 && $v == 0) {
             return ONE;
         }
-        elseif ($v == 0 && ($imod10 >= 2 && $imod10 <= 4) && ($imod100 < 12 || $imod100 > 14)) {
+        elseif ($v == 0 && self::inRange($imod10, [2, 4]) && !self::inRange($imod100, [12, 14])) {
             return FEW;
         }
         elseif (
-            ($v == 0 && $i != 1 && ($imod10 >= 0 && $imod10 <= 1))
-            || ($v == 0 && ($imod10 >= 5 && $imod10 <= 9))
-            || ($v == 0 && ($imod100 >= 12 && $imod100 <= 14))
+            ($v == 0 && $i != 1 && self::inRange($imod10, [0, 1]))
+            || ($v == 0 && self::inRange($imod10, [5, 9]))
+            || ($v == 0 && self::inRange($imod100, [12, 14]))
         ) {
             return MANY;
         }

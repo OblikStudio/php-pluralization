@@ -10,10 +10,10 @@ class LithuanianLanguage extends Language
         $mod100 = $n % 100;
         $hasNonZeroDecimal = $n != $i;
         
-        if (!$hasNonZeroDecimal && $mod10 == 1 && ($mod100 < 11 || $mod100 > 19)) {
+        if (!$hasNonZeroDecimal && $mod10 == 1 && !self::inRange($mod100, [11, 19])) {
             return ONE;
         }
-        elseif (!$hasNonZeroDecimal && ($mod10 >= 2 && $mod10 < 19) && ($mod100 < 11 || $mod100 > 19)) {
+        elseif (!$hasNonZeroDecimal && self::inRange($mod10, [2, 19]) && !self::inRange($mod100, [11, 19])) {
             return FEW;
         }
         elseif ($f != 0) {

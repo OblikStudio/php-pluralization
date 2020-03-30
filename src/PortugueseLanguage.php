@@ -6,7 +6,7 @@ class PortugueseLanguage extends Language
 {
     static function cardinal(float $n, int $i, int $v)
     {
-        if ($i >= 0 && $i <= 1) {
+        if (self::inRange($i, [0, 1])) {
             return ONE;
         }
         return OTHER;

@@ -18,10 +18,10 @@ class ArabicLanguage extends Language
         elseif ($n == 2) {
             return TWO;
         }
-        elseif (!$hasNonZeroDecimal && $mod100 >= 3 && $mod100 <= 10) {
+        elseif (!$hasNonZeroDecimal && self::inRange($mod100, [3, 10])) {
             return FEW;
         }
-        elseif (!$hasNonZeroDecimal && $mod100 >= 11 && $mod100 <= 99) {
+        elseif (!$hasNonZeroDecimal && self::inRange($mod100, [11, 99])) {
             return MANY;
         }
         return OTHER;

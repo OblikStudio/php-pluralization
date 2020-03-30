@@ -14,8 +14,8 @@ class LatvianLanguage extends Language
         
         if (!$hasNonZeroDecimal && (
             $mod10 == 0
-            || ($mod100 >= 11 && $mod100 <= 19)
-            || ($v == 2 && $fmod100 >= 11 && $mod100 <= 19)
+            || self::inRange($mod100, [11, 19])
+            || ($v == 2 && self::inRange($fmod100, [11, 19]))
         )) {
             return ZERO;
         }

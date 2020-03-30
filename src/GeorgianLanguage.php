@@ -19,7 +19,7 @@ class GeorgianLanguage extends Language
         if ($n == 1) {
             return ONE;
         }
-        elseif ($n == 0 || (($mod100 >= 2 && $mod100 <= 20) || $mod100 === 40 || $mod100 == 60 || $mod100 == 80)) {
+        elseif ($n == 0 || (self::inRange($mod100, [2, 20]) || $mod100 === 40 || $mod100 == 60 || $mod100 == 80)) {
             return MANY;
         }
         return OTHER;

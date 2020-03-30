@@ -47,6 +47,7 @@ const LANGUAGES = [
   'lv'  => LatvianLanguage::class,
   'lt'  => LithuanianLanguage::class,
   'jbo' => LojbanLanguage::class,
+  'mk'  => MacedonianLanguage::class,
   'kde' => MakondeLanguage::class,
   'ms'  => MalayLanguage::class,
   'nqo' => NKoLanguage::class,

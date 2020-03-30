@@ -70,6 +70,7 @@ const LANGUAGES = [
   'bo'  => TibetanLanguage::class,
   'to'  => TonganLanguage::class,
   'tr'  => TurkishLanguage::class,
+  'uk'  => UkrainianLanguage::class,
   'vi'  => VietnameseLanguage::class,
   'wo'  => WolofLanguage::class,
   'yo'  => YorubaLanguage::class,

@@ -58,6 +58,7 @@ const LANGUAGES = [
   'fa'  => PersianLanguage::class,
   'pl'  => PolishLanguage::class,
   'pt'  => PortugueseLanguage::class,
+  'rm'  => RomanshLanguage::class,
   'ru'  => RussianLanguage::class,
   'sah' => SakhaLanguage::class,
   'sg'  => SangoLanguage::class,

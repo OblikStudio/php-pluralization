@@ -54,6 +54,7 @@ const LANGUAGES = [
   'nb'  => NorwegianBokmalLanguage::class,
   'nn'  => NorwegianNynorskLanguage::class,
   'nqo' => NKoLanguage::class,
+  'pl'  => PolishLanguage::class,
   'fa'  => PersianLanguage::class,
   'ru'  => RussianLanguage::class,
   'sah' => SakhaLanguage::class,

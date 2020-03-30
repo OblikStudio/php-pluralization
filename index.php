@@ -72,6 +72,7 @@ const LANGUAGES = [
   'sv'  => SwedishLanguage::class,
   'ii'  => SichuanYiLanguage::class,
   'es'  => SpanishLanguage::class,
+  'te'  => TeluguLanguage::class,
   'th'  => ThaiLanguage::class,
   'bo'  => TibetanLanguage::class,
   'to'  => TonganLanguage::class,

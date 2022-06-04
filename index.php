@@ -22,6 +22,7 @@ const LANGUAGES = [
   'bs'  => BosnianLanguage::class,
   'bg'  => BulgarianLanguage::class,
   'my'  => BurmeseLanguage::class,
+  'ca'  => CatalanLanguage::class,
   'yue' => CantoneseLanguage::class,
   'zh'  => ChineseLanguage::class,
   'hr'  => CroatianLanguage::class,

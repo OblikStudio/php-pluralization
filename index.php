@@ -46,6 +46,7 @@ const LANGUAGES = [
   'ig'  => IgboLanguage::class,
   'id'  => IndonesianLanguage::class,
   'in'  => IndonesianLanguage::class,
+  'ga'  => IrishLanguage::class,
   'it'  => ItalianLanguage::class,
   'ja'  => JapaneseLanguage::class,
   'jv'  => JavaneseLanguage::class,

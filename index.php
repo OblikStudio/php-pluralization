@@ -19,6 +19,7 @@ const LANGUAGES = [
   'eu'  => BasqueLanguage::class,
   'be'  => BelarusianLanguage::class,
   'bn'  => BengaliLanguage::class,
+  'bs'  => BosnianLanguage::class,
   'bg'  => BulgarianLanguage::class,
   'my'  => BurmeseLanguage::class,
   'yue' => CantoneseLanguage::class,

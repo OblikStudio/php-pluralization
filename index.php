@@ -34,6 +34,7 @@ const LANGUAGES = [
   'eo'  => EsperantoLanguage::class,
   'es'  => EstonianLanguage::class,
   'pt_PT'   => EuropeanPortugueseLanguage::class,
+  'fo'  => FaroeseLanguage::class,
   'fi'  => FinnishLanguage::class,
   'fr'  => FrenchLanguage::class,
   'ff'  => FulahLanguage::class,

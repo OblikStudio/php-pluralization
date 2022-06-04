@@ -38,6 +38,7 @@ const LANGUAGES = [
   'fi'  => FinnishLanguage::class,
   'fr'  => FrenchLanguage::class,
   'ff'  => FulahLanguage::class,
+  'gl'  => GalicianLanguage::class,
   'ka'  => GeorgianLanguage::class,
   'de'  => GermanLanguage::class,
   'el'  => GreekLanguage::class,

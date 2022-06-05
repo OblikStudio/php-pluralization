@@ -57,6 +57,7 @@ const LANGUAGES = [
   'jv'  => JavaneseLanguage::class,
   'jw'  => JavaneseLanguage::class,
   'kea' => KabuverdianuLanguage::class,
+  'kn'  => KannadaLanguage::class,
   'kk'  => KazakhLanguage::class,
   'km'  => KhmerLanguage::class,
   'ko'  => KoreanLanguage::class,

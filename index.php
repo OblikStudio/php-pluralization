@@ -47,6 +47,7 @@ const LANGUAGES = [
   'he'  => HebrewLanguage::class,
   'hi'  => HindiLanguage::class,
   'hu'  => Hungarian::class,
+  'is'  => IcelandicLanguage::class,
   'ig'  => IgboLanguage::class,
   'id'  => IndonesianLanguage::class,
   'in'  => IndonesianLanguage::class,

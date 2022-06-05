@@ -98,6 +98,7 @@ const LANGUAGES = [
   'si'  => SinhalaLanguage::class,
   'sk'  => SlovakLanguage::class,
   'sl'  => SlovenianLanguage::class,
+  'so'  => SomaliLanguage::class,
   'sv'  => SwedishLanguage::class,
   'ii'  => SichuanYiLanguage::class,
   'es'  => SpanishLanguage::class,

@@ -105,6 +105,7 @@ const LANGUAGES = [
   'es'  => SpanishLanguage::class,
   'sw'  => SwahiliLanguage::class,
   'syr' => SyriacLanguage::class,
+  'ta'  => TamilLanguage::class,
   'te'  => TeluguLanguage::class,
   'th'  => ThaiLanguage::class,
   'bo'  => TibetanLanguage::class,

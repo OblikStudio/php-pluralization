@@ -97,6 +97,7 @@ const LANGUAGES = [
   'sr'  => SerbianLanguage::class,
   'si'  => SinhalaLanguage::class,
   'sk'  => SlovakLanguage::class,
+  'sl'  => SlovenianLanguage::class,
   'sv'  => SwedishLanguage::class,
   'ii'  => SichuanYiLanguage::class,
   'es'  => SpanishLanguage::class,

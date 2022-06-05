@@ -84,6 +84,7 @@ const LANGUAGES = [
   'nn'  => NorwegianNynorskLanguage::class,
   'nqo' => NKoLanguage::class,
   'or'  => OriyaLanguage::class,
+  'ps'  => PashtoLanguage::class,
   'fa'  => PersianLanguage::class,
   'pl'  => PolishLanguage::class,
   'pt'  => PortugueseLanguage::class,

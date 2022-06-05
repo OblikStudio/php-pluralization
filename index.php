@@ -77,6 +77,7 @@ const LANGUAGES = [
   'mt'  => MalteseLanguage::class,
   'mr'  => MarathiLanguage::class,
   'mn'  => MongolianLanguage::class,
+  'ne'  => NepaliLanguage::class,
   'no'  => NorwegianLanguage::class,
   'nb'  => NorwegianBokmalLanguage::class,
   'nn'  => NorwegianNynorskLanguage::class,

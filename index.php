@@ -95,6 +95,7 @@ const LANGUAGES = [
   'sah' => SakhaLanguage::class,
   'sg'  => SangoLanguage::class,
   'sr'  => SerbianLanguage::class,
+  'si'  => SinhalaLanguage::class,
   'sv'  => SwedishLanguage::class,
   'ii'  => SichuanYiLanguage::class,
   'es'  => SpanishLanguage::class,

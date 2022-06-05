@@ -121,4 +121,5 @@ const LANGUAGES = [
   'xh'  => XhosaLanguage::class,
   'yi'  => YiddishLanguage::class,
   'yo'  => YorubaLanguage::class,
+  'zu'  => ZuluLanguage::class
 ];

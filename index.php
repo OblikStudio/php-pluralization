@@ -37,6 +37,7 @@ const LANGUAGES = [
   'es'  => EstonianLanguage::class,
   'pt_PT'   => EuropeanPortugueseLanguage::class,
   'fo'  => FaroeseLanguage::class,
+  'fil' => FilipinoLanguage::class,
   'fi'  => FinnishLanguage::class,
   'fr'  => FrenchLanguage::class,
   'ff'  => FulahLanguage::class,

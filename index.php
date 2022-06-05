@@ -29,6 +29,7 @@ const LANGUAGES = [
   'hr'  => CroatianLanguage::class,
   'cs'  => CzechLanguage::class,
   'da'  => DanishLanguage::class,
+  'nl'  => DutchLanguage::class,
   'dz'  => DzongkhaLanguage::class,
   'en'  => EnglishLanguage::class,
   'eo'  => EsperantoLanguage::class,

@@ -74,6 +74,7 @@ const LANGUAGES = [
   'mg'  => MalagasyLanguage::class,
   'ms'  => MalayLanguage::class,
   'ml'  => MalayalamLanguage::class,
+  'mr'  => MarathiLanguage::class,
   'mn'  => MongolianLanguage::class,
   'no'  => NorwegianLanguage::class,
   'nb'  => NorwegianBokmalLanguage::class,

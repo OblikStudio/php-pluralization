@@ -71,6 +71,7 @@ const LANGUAGES = [
   'jbo' => LojbanLanguage::class,
   'mk'  => MacedonianLanguage::class,
   'kde' => MakondeLanguage::class,
+  'mg'  => MalagasyLanguage::class,
   'ms'  => MalayLanguage::class,
   'ml'  => MalayalamLanguage::class,
   'mn'  => MongolianLanguage::class,

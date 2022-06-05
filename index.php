@@ -104,6 +104,7 @@ const LANGUAGES = [
   'ii'  => SichuanYiLanguage::class,
   'es'  => SpanishLanguage::class,
   'sw'  => SwahiliLanguage::class,
+  'syr' => SyriacLanguage::class,
   'te'  => TeluguLanguage::class,
   'th'  => ThaiLanguage::class,
   'bo'  => TibetanLanguage::class,

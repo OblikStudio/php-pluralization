@@ -118,5 +118,6 @@ const LANGUAGES = [
   'vi'  => VietnameseLanguage::class,
   'cy'  => WelshLanguage::class,
   'wo'  => WolofLanguage::class,
+  'xh'  => XhosaLanguage::class,
   'yo'  => YorubaLanguage::class,
 ];

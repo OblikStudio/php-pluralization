@@ -83,6 +83,7 @@ const LANGUAGES = [
   'nb'  => NorwegianBokmalLanguage::class,
   'nn'  => NorwegianNynorskLanguage::class,
   'nqo' => NKoLanguage::class,
+  'or'  => OriyaLanguage::class,
   'fa'  => PersianLanguage::class,
   'pl'  => PolishLanguage::class,
   'pt'  => PortugueseLanguage::class,

@@ -119,5 +119,6 @@ const LANGUAGES = [
   'cy'  => WelshLanguage::class,
   'wo'  => WolofLanguage::class,
   'xh'  => XhosaLanguage::class,
+  'yi'  => YiddishLanguage::class,
   'yo'  => YorubaLanguage::class,
 ];

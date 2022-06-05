@@ -11,6 +11,7 @@ const OTHER = 5;
 
 const LANGUAGES = [
   'af'  => AfrikaansLanguage::class,
+  'sq'  => AlbanianLanguage::class,
   'am'  => AmharicLanguage::class,
   'ar'  => ArabicLanguage::class,
   'hy'  => ArmenianLanguage::class,

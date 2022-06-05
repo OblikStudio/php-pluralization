@@ -89,6 +89,7 @@ const LANGUAGES = [
   'pl'  => PolishLanguage::class,
   'pt'  => PortugueseLanguage::class,
   'pa'  => PunjabiLanguage::class,
+  'ro'  => RomanianLanguage::class,
   'rm'  => RomanshLanguage::class,
   'ru'  => RussianLanguage::class,
   'sah' => SakhaLanguage::class,
